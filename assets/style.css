@@ -107,6 +107,8 @@ div{
     border: 6px solid #949599;
     height: 100px;
     margin: 20px;
+   border-top-left-radius: 75px;
+   border-bottom-right-radius: 75px;
     padding: 20px;
     width: 400px;
 }
