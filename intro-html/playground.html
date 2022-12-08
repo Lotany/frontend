@@ -3,65 +3,34 @@
 <head>
     <title>play ground</title>
     <style>
-        p,h3{
-            margin-top: 0;
-            margin-bottom: 0;
-        }
-        .left{
-            display: inline-block;
-            width: 200px;
-            vertical-align: top;
+        .grid{
+            display: grid;
+            grid-template-columns: 400px 400px;
+            margin-top: 20px;
         }
 
-        .right{
-            display: inline-block;
-            margin-top: 0;
-            width: 200px;
+        .div1{
+            background-color: aqua;
         }
-        .left-img{
-            width: 100%;
-            object-fit: cover;
-        }
+        .div2{
+            background-color: bisque;
 
-        .pu{
-            margin-top: 15px;
         }
 
     </style>
 </head>
 <body>
-    <div>
-        <div class="left">
-            <img class="left-img" src="/images/image_2.png" alt="">
-        </div>
-        <div class="right">
-            <h3>How to compete against sc degfree as a self taught</h3>
-            <p class="pu">supersimpledev</p>
-            <p>1.5k views . 4 months ago</p>
+   <div class="grid">
+    <div class="div1">div 1</div>
+    <div class="div2">div 2</div>
+   </div>
 
-        </div>
+   <div class="grid">
+    <div class="div1">div 1
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus porro, magnam quaerat enim repellat sit voluptatibus itaque reprehenderit iste ab possimus? Reiciendis temporibus cum molestiae non fuga, voluptatem consequuntur! Deserunt?</p>
     </div>
-    <div>
-        <div class="left">
-            <img class="left-img" src="/images/image_2.png" alt="">
-        </div>
-        <div class="right">
-            <h3>How to compete against sc degfree as a self taught</h3>
-            <p class="pu">supersimpledev</p>
-            <p>1.5k views . 4 months ago</p>
-        </div>
-    </div>
-
-    <div>
-        <div class="left">
-            <img class="left-img" src="/images/image_2.png" alt="">
-        </div>
-        <div class="right">
-            <h3>How to compete against sc degfree as a self taught</h3>
-            <p class="pu">supersimpledev</p>
-            <p>1.5k views . 4 months ago</p>
-        </div>
-    </div>
+    <div class="div2">div 2</div>
+   </div>
 </body>
 
 </html>
