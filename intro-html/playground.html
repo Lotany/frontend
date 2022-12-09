@@ -3,66 +3,42 @@
 <head>
     <title>play ground</title>
     <style>
-        .flex{
-            display: flex;
-            flex-direction: row;
-            height: 70px;
-            border-width: 1px;
-            border-style: solid;
-            justify-content: center;
-        }
+  .img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  .flex{
+    display: flex;
+    flex-direction: row;
+  }
+  .right{
+    width: 50px;
+  }
 
-        .flex1{
-            margin-top: 20px;
-            display: flex;
-            flex-direction: row;
-            height: 70px;
-            border-width: 1px;
-            border-style: solid;
-            justify-content: space-between;
-        }
+  .middle{
+    width: 50px;
+    margin-left: 10px;
+  }
 
-        .flex2{
-            margin-top: 20px;
-            display: flex;
-            flex-direction: row;
-            height: 70px;
-            border-width: 1px;
-            border-style: solid;
-            justify-content: space-between;
-            align-items: center;
-        }
- .div1{
-    background-color: aqua;
-    width: 100px;
- }
- .div2{
-    background-color: blueviolet;
-   width: 100px;
- }
- .div3{
-    background-color: aqua;
-   width: 100px;
- }
+  .left{
+    flex: 1;
+    margin-left: 40px;
+  }
+  p{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
     </style>
 </head>
 <body>
-   <div class="flex">
-    <div class="div1">100px</div>
-    <div class="div2">100px</div>
-    <div class="div3">100px</div>
-   </div>
-
-   <div class="flex1">
-    <div class="div1">100px</div>
-    <div class="div2">100px</div>
-    <div class="div3">100px</div>
-   </div>
-
-   <div class="flex2">
-    <div class="div1">100px</div>
-    <div class="div2">100px</div>
-    <div class="div3">100px</div>
-   </div>
+<div class="flex">
+    <div class="right"><img class="img" src="/images/lot.jpg" alt=""></div>
+    <div class="middle"><p>Head</p>
+    <p>the cat</p>
+<p>popular</p></div>
+    <div class="left">Button</div>
+</div>
 </body>
 </html>
