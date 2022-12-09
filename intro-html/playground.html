@@ -3,69 +3,33 @@
 <head>
     <title>play ground</title>
     <style>
-        h4,p{
-            margin-top: 0;
-            margin-bottom: 0;
+        .flex{
+            display: flex;
+            flex-direction: row;
+            height: 70px;
+            border-width: 1px;
+            border-style: solid;
         }
-    .grid{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 30px;
-    }
 
-    .grid-img{
-        width: 100%;
-        height: 200px;
-        object-fit: cover;
-    }
-
-    .grid-nest{
-        display: grid;
-        grid-template-columns: 50px 1fr;
-    }
-    .grid-nest-img{
-        width: 100%;
-        height: 50px;
-        border-radius: 100px;
-        object-fit: cover;
-    }
+ .div1{
+    background-color: aqua;
+    width: 100px;
+ }
+ .div2{
+    background-color: blueviolet;
+   width: 100px;
+ }
+ .div3{
+    background-color: aqua;
+   width: 100px;
+ }
     </style>
 </head>
 <body>
-   <div class="grid">
-
-    <div>
-        <img class="grid-img" src="/images/lot.jpg" alt="">
-        <h4>Lotan</h4>
-        <div class="grid-nest">
-            <div><img class="grid-nest-img" src="/images/lot.jpg" alt=""></div>
-            <div><p>2 mutual friends</p></div>
-        </div>
-        <button>Add Friend</button>
-    </div>
-
-
-    <div>
-        <img class="grid-img" src="/images/banner.jpg" alt="">
-        <h4>Lotan</h4>
-        <div class="grid-nest">
-            <div><img class="grid-nest-img" src="/images/lot.jpg" alt=""></div>
-            <div><p>2 mutual friends</p></div>
-        </div>
-        <button>Add Friend</button>
-    </div>
-
-
-    <div>
-        <img class="grid-img" src="/images/image_2.png" alt="">
-        <h4>Lotan</h4>
-        <div class="grid-nest">
-            <div><img  class="grid-nest-img"  src="/images/lot.jpg" alt=""></div>
-            <div><p>2 mutual friends</p></div>
-        </div>
-        <button>Add Friend</button>
-    </div>
-
+   <div class="flex">
+    <div class="div1">100px</div>
+    <div class="div2">100px</div>
+    <div class="div3">100px</div>
    </div>
 </body>
 </html>
