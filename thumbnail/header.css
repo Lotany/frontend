@@ -1,4 +1,24 @@
-.search-bar{
-    display: block;
+.header{
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+
 }
 
+.left-section{
+    background-color: aqua;
+    width: 150px;
+    
+}
+
+.middle-section{
+    background-color: brown;
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+}
+
+.right-section{
+    background-color: blue;
+    width: 200px;
+}
